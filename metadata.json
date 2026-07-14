@@ -1,0 +1,6 @@
+{
+  "name": "Beacon",
+  "description": "A high-precision real-time tracking system using satellite mapping and secure multi-key authentication.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beacon - Parent Command Center</title>
+    <!-- Leaflet CSS for high-precision satellite mapping -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <style>
+      /* Ensure clean Leaflet controls styling that fits our white-blue clean theme */
+      .leaflet-bar {
+        border: 1px solid rgba(59, 130, 246, 0.2) !important;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+      }
+      .leaflet-bar a {
+        background-color: #ffffff !important;
+        color: #1e3a8a !important;
+        border-bottom: 1px solid rgba(59, 130, 246, 0.1) !important;
+      }
+      .leaflet-bar a:hover {
+        background-color: #f0fdf4 !important;
+        color: #2563eb !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
